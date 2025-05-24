@@ -27,7 +27,7 @@
 ## 📦 Installation
 
 ### Method 1: Download from GitHub (Recommended)
-1. Go to [6em/pack](https://github.com/6em/pack) repository
+1. Go to [6em/pack](https://github.com/6em-dev/pack) repository
 2. Download the latest release
 3. Extract the ZIP file
 4. Open Chrome and go to `chrome://extensions/`
@@ -36,7 +36,7 @@
 
 ### Method 2: Build from Source
 ```bash
-git clone https://github.com/6em/pack.git
+git clone https://github.com/6em-dev/pack.git
 cd pack
 npm install
 npm run build
@@ -159,7 +159,7 @@ The Pack store is powered by a JSON configuration file that defines available ex
 ### Setup Development Environment
 ```bash
 # Clone the repository
-git clone https://github.com/6em/pack.git
+git clone https://github.com/6em-dev/pack.git
 cd pack
 
 # Install dependencies
@@ -211,7 +211,7 @@ pack/
    {
      "id": "unique-extension-id",
      "name": "Extension Name",
-     "downloadUrl": "https://github.com/6em/pack/releases/download/v1.0.0/extension.pack",
+     "downloadUrl": "https://github.com/6em-dev/pack/releases/download/v1.0.0/extension.pack",
      ...
    }
    ```
