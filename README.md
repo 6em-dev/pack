@@ -27,7 +27,7 @@
 ## 📦 Installation
 
 ### Method 1: Download from GitHub (Recommended)
-1. Go to [6em/pack](https://github.com/6em-dev/pack) repository
+1. Go to [6em-dev/pack](https://github.com/6em-dev/pack) repository
 2. Download the latest release
 3. Extract the ZIP file
 4. Open Chrome and go to `chrome://extensions/`
