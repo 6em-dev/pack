@@ -1,0 +1,130 @@
+{
+  "version": "1.0.0",
+  "updated": "2025-05-24T12:00:00Z",
+  "schema_version": "1.0",
+  "repository": {
+    "name": "Pack Extension Store",
+    "url": "https://github.com/6em-dev/pack",
+    "description": "Alternative extension store for Chrome with advanced features"
+  },
+  "categories": [
+    {
+      "id": "productivity",
+      "name": "Productivity",
+      "description": "Extensions to boost your productivity"
+    },
+    {
+      "id": "privacy",
+      "name": "Privacy & Security",
+      "description": "Extensions for privacy and security"
+    },
+    {
+      "id": "development",
+      "name": "Developer Tools",
+      "description": "Tools for web developers"
+    },
+    {
+      "id": "social",
+      "name": "Social & Communication",
+      "description": "Social media and communication tools"
+    },
+    {
+      "id": "entertainment",
+      "name": "Entertainment",
+      "description": "Entertainment and media extensions"
+    },
+    {
+      "id": "shopping",
+      "name": "Shopping",
+      "description": "Shopping and deals extensions"
+    }
+  ],
+  "featured": [
+    "ublock-origin-pack",
+    "dark-reader-pack"
+  ],
+  "extensions": [
+    {
+      "id": "ublock-origin-pack",
+      "name": "uBlock Origin (Pack Version)",
+      "version": "1.54.0",
+      "description": "Finally, an efficient wide-spectrum content blocker. Easy on CPU and memory. Bypasses Manifest V3 restrictions through Pack sandboxing.",
+      "author": "Raymond Hill (Pack: Pack Team)",
+      "category": "privacy",
+      "tags": ["adblocker", "privacy", "performance", "manifest-v2"],
+      "icon": "https://raw.githubusercontent.com/6em-dev/pack/main/extensions/ublock-origin/icon.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/6em/pack-dev/main/extensions/ublock-origin/screenshot1.png",
+        "https://raw.githubusercontent.com/6em/pack-dev/main/extensions/ublock-origin/screenshot2.png"
+      ],
+      "downloadUrl": "https://github.com/6em/pack-dev/releases/download/v1.0.0/ublock-origin-1.54.0.pack",
+      "size": 2048576,
+      "downloads": 10,
+      "rating": 4.8,
+      "reviews": 3,
+      "permissions": [
+        "storage",
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>",
+        "tabs",
+        "contextMenus"
+      ],
+      "manifest_version": 2,
+      "pack_features": {
+        "v3_bypass": true,
+        "sandboxed": true,
+        "enhanced_blocking": true
+      },
+      "compatibility": {
+        "chrome": ">=88.0",
+        "firefox": ">=78.0"
+      },
+      "last_updated": "2025-05-20T10:30:00Z",
+      "verified": true,
+      "featured": true
+    },
+    {
+      "id": "dark-reader-pack",
+      "name": "Dark Reader (Pack Enhanced)",
+      "version": "4.9.80",
+      "description": "Dark mode for every website. Take care of your eyes, use dark theme for night and daily browsing. Enhanced with Pack features.",
+      "author": "Alexander Shutau (Pack: Pack Team)",
+      "category": "productivity",
+      "tags": ["dark-mode", "accessibility", "eye-care", "theme"],
+      "icon": "https://raw.githubusercontent.com/6em-dev/pack/main/extensions/dark-reader/icon.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/6em-dev/pack/main/extensions/dark-reader/screenshot1.png"
+      ],
+      "downloadUrl": "https://github.com/6em-dev/pack/releases/download/v1.0.0/dark-reader-4.9.80.pack",
+      "size": 1536000,
+      "downloads": 8,
+      "rating": 4.9,
+      "reviews": 1,
+      "permissions": [
+        "storage",
+        "activeTab",
+        "<all_urls>",
+        "contextMenus"
+      ],
+      "manifest_version": 2,
+      "pack_features": {
+        "enhanced_performance": true,
+        "custom_filters": true
+      },
+      "compatibility": {
+        "chrome": ">=88.0",
+        "firefox": ">=78.0"
+      },
+      "last_updated": "2025-05-18T14:20:00Z",
+      "verified": true,
+      "featured": true
+    }
+  ],
+  "stats": {
+    "total_extensions": 2,
+    "total_downloads": 18,
+    "active_users": 2,
+    "last_updated": "2025-05-24T12:00:00Z"
+  }
+}
